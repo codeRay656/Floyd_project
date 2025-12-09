@@ -4,7 +4,7 @@ This project implements an end-to-end route optimization workflow using the Floy
 
 The project uses a cleaned neighbourhood dataset (Chennai_neighbourhood_cleaned.csv) as the node set and builds an adjacency matrix to run Floyd–Warshall.
 
-#Project Overview
+# Project Overview
 1. Data Loading & Exploration
 
 Load cleaned neighbourhood dataset using Pandas.
@@ -73,7 +73,7 @@ Input: start location, end location
 
 Internally queries shortest-path matrix
 
-#Plots:
+# Plots:
 
 Markers for each step
 
@@ -90,7 +90,7 @@ Folder Structure
 ├── Chennai_neighbourhood_cleaned.csv
 └── README.md                      # (This file)
 
-#Technologies Used
+# Technologies Used
 
 Python
 
@@ -120,7 +120,7 @@ jupyter notebook floyds-1.ipynb
 
 Run the notebook sequentially.
 
-#Key Functions
+# Key Functions
 generate_adjacency_matrix(df)
 
 Builds an adjacency matrix from neighbourhood dataset.
@@ -141,7 +141,7 @@ show_shortest_path_map(start, end)
 
 Displays interactive Folium route visualization.
 
-#Example Usage
+# Example Usage
 start = "Adyar"
 end = "Velachery"
 
